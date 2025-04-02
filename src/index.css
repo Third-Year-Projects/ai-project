@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Public Sans", sans-serif;
+  --color-primary: rgba(70, 136, 71, 1);
+  --color-custom-white: rgba(242, 244, 245, 1);
+  --color-dark:rgba(48, 54, 57, 1);
+  --color-orange:rgba()
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-100: oklch(0.99 0 0);
+ 
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  /* ... */
+}
+
+
+/* Add these styles for the carousel */
+.slick-dots {
+  bottom: 25px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.slick-prev, .slick-next {
+  z-index: 10;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px !important;
+}
+
+
+
+ 
+
